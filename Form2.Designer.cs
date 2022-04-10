@@ -322,6 +322,7 @@ namespace WF_Maze
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            this.MouseLeave += new System.EventHandler(this.Form2_MouseLeave);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);

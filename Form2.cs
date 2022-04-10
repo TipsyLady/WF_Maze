@@ -41,5 +41,12 @@ namespace WF_Maze
         private void Form_Closing(object sender, EventArgs e)
         {
         }
+
+        private void Form2_MouseLeave(object sender, EventArgs e)
+        {
+
+            Cursor.Show();
+
+        }
     }
 }
